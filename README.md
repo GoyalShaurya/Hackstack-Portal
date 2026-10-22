@@ -288,6 +288,12 @@ All admin endpoints require `auth` + `admin` middleware:
 - `DELETE /api/admin/modules/:id` - Delete module
 - Similar endpoints for `/admin/quizzes`, `/admin/progress`, `/admin/users`
 
+### Dashboard Endpoints
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|:-------------:|
+| GET | `/api/dashboard` | Get the logged-in user's dashboard data | ✅ |
+
 ---
 
 ### Before Submitting a Pull Request
